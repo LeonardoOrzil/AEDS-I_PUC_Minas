@@ -9,4 +9,5 @@ int main (){
         cont++;
     }
     printf("%d is the sum of the 5 numbers", soma);
+    return 0;
 }
