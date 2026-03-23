@@ -17,7 +17,7 @@ int main (){
             contn++;
         }
     }
-    printf("%d Positivos \n%d Negativos \n%d zeros", contp,contn, contz);
+    printf("%d Positives \n%d Negatives \n%d zeros", contp,contn, contz);
 
 return 0;
 }
