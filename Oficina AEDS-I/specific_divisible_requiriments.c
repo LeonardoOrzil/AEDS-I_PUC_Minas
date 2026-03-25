@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main (){
     int num1, div39, div2, div5;
 
@@ -13,20 +14,19 @@ int main (){
             printf(" 3 and 9\n");
             div39++;
         }
-        if (num1%2==0){
+         else if (num1%2==0){
             printf(" 2\n");
             div2++;
         }
-        if (num1%5==0){
+        else if (num1%5==0){
             printf(" 5\n");
             div5++;
-        }
-        if (num1%3!=0 && num1%9!=0  num1%2!=0 && num1%5!=0){
+        }else{
             printf(" none of the required numbers\n");
         }
 
     }
-    printf("%d is the amount of numbers divisible by e and 9\n%d is the amount of numbers divisible by 2\n%d is the amount of numbers divisible by 5", div39, div2, div5);
+    printf("%d is the amount of numbers divisible by 3 and 9\n%d is the amount of numbers divisible by 2\n%d is the amount of numbers divisible by 5", div39, div2, div5);
 
 
 return 0;
